@@ -18,7 +18,7 @@ Student Expense Tracker is a simple website that allows students to record, mana
 - JavaScript
 - DOM Manipulation
 
-## Project Structure
-- `index.html` - Main webpage structure
-- `style.css` - Website styling
-- `script.js` - Expense management and functionality
+## Name & URN
+- Spandan Kothalkar
+- E26B03F2712
+# webdev-practical-lab

@@ -1,3 +1,7 @@
+
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: Arial;
     background-color: #dbddffba;
@@ -7,7 +11,7 @@ h1, h2 {
     text-align: center;
 }
 form {
-    background-color:#cfd0f4;
+    background-color: #cfd0f4;
     padding: 18px;
     border-radius: 5px;
     max-width: 500px;
@@ -23,15 +27,22 @@ button {
     padding: 8px 15px;
     border: none;
     cursor: pointer;
+    text-align: center;
 }
 button:hover {
-    background-color: darkblue;
+    background-color: crimson;
+}
+form button {
+    width: 100%;
 }
 ul {
     padding: 0;
     list-style: none;
 }
 li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     background-color: white;
     padding: 10px;
     margin: 10px 0;
@@ -40,7 +51,7 @@ li {
 }
 li button {
     background-color: lightcoral;
-    margin-left: 10px;
+    margin-left: auto;
 }
 li button:hover {
     background-color: darkred;
@@ -58,7 +69,7 @@ li button:hover {
     flex: 1;
     min-width: 0;
 }
-button {
-    align-items: center;
-    text-align: center;
+#filter {
+    display: block;
+    margin: 10px auto;
 }
