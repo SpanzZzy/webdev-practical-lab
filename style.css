@@ -1,0 +1,64 @@
+body {
+    font-family: Arial;
+    background-color: #dbddffba;
+    padding: 20px;
+}
+h1, h2 {
+    text-align: center;
+}
+form {
+    background-color:#cfd0f4;
+    padding: 18px;
+    border-radius: 5px;
+    max-width: 500px;
+    margin: auto;
+}
+input, select {
+    padding: 8px;
+    margin: 5px;
+}
+button {
+    background-color: lightcoral;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background-color: darkblue;
+}
+ul {
+    padding: 0;
+    list-style: none;
+}
+li {
+    background-color: white;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+li button {
+    background-color: lightcoral;
+    margin-left: 10px;
+}
+li button:hover {
+    background-color: darkred;
+}
+.form-row {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 10px;
+}
+.form-row label {
+    width: 140px;
+}
+.form-row input, .form-row select {
+    flex: 1;
+    min-width: 0;
+}
+button {
+    align-items: center;
+    text-align: center;
+}
